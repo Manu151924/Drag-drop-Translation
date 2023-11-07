@@ -1,0 +1,12 @@
+<div class="translation-container">
+    <div class="toolbar">
+      <button class="language-button" (click)="switchLanguage('en')">English</button>
+      <button class="language-button" (click)="switchLanguage('fr')">French</button>
+    </div>
+    <div class="translation-content">
+      <h1 class="title">{{ 'TITLE' | translate }}</h1>
+      <p class="content">{{ 'CONTENT' | translate }}</p>
+    </div>
+    <app-drag-drop class="drag-drop-container"></app-drag-drop>
+  </div>
+  
